@@ -16,9 +16,12 @@ export default function Home() {
 
 export function AvatarItems() {
   return(
-    <Avatar>
-      <AvatarImage src="/lain.jpg" alt="Avatar" />
-      <AvatarFallback>Psyraiser</AvatarFallback>
-    </Avatar>
+    <div className="flex flex-col items-center gap-4">
+      <Avatar>
+        <AvatarImage src="/lain.jpg" alt="Avatar" />
+        <AvatarFallback>P</AvatarFallback>
+      </Avatar>
+      <h1 className="text-2xl font-semibold">Psyraiser</h1>
+    </div>
   )
 }
